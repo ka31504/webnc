@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
-class HomeController extends Controller
+class AboutController extends Controller
 {
     public function index()
     {
-        return view('home', ['title' => 'Home Page']);
+        return view('about', ['title' => 'About Page']);
     }
 }
