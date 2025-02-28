@@ -54,4 +54,6 @@ Mở trình duyệt và truy cập `http://127.0.0.1:8000`
 
 ## 4. Kiến Trúc Hệ Thống
 Dưới đây là sơ đồ mô tả kiến trúc tổng quan của hệ thống:
+![Văn bản thay thế](quytrinh.png)
+
 
