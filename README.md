@@ -1,4 +1,6 @@
 # Hệ Thống Quản Lý Trường Học
+[Phạm Quang Khải - 22010028](https://github.com/ka31504)
+
 
 ## 1. Giới Thiệu
 Dự án **School Management System** được xây dựng bằng PHP Laravel và sử dụng MySQL từ Aiven để quản lý thông tin học sinh, giáo viên, khóa học và các hoạt động trong trường học.
