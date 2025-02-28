@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Permission;
+use Illuminate\Support\Carbon;
 
 class AdminSeeder extends Seeder
 {
@@ -15,7 +16,7 @@ class AdminSeeder extends Seeder
     {
         $admin = User::create([
             'name' => 'admin',
-            'email' => 'admin@gmail.com',
+            'email_verified_at' => Carbon::now(),
             'email_verified_at' => now(),
             'password' => '$2y$10$luvyBtfKZkES7eo2yG8xLemhbSO.oIhBhlU6slWC6F.qEMkXQ8Wou', // 12345678
         ]);
